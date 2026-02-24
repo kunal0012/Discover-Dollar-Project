@@ -12,7 +12,7 @@ services:
     build: ./backend
     container_name: backend
     ports:
-      - "8080:8080"   # ✅ FIXED
+      - "8080:8080"   
     environment:
       - DB_HOST=mongo
     depends_on:
