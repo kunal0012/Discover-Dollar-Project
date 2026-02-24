@@ -25,3 +25,10 @@ Run `ng serve --port 8081`
 You can modify the `src/app/services/tutorial.service.ts` file to adjust how the frontend interacts with the backend.
 
 Navigate to `http://localhost:8081/`
+
+OR if you want to run the application using container make sure you have docker engine installed in your machine
+follow the commands in your root folder
+1. make sure to run "npm install" in frontend directory first.
+2. docker compose build
+3. docker compose up
+   
